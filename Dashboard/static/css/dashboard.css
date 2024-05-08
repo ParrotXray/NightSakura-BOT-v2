@@ -1,0 +1,254 @@
+/* Start Rolez */
+
+body {font-family:Arial , Tahoma;margin:0}
+
+.container {
+    max-width: 80%; /* 设置最大宽度为100% */
+    margin: auto; /* 水平居中 */
+}
+
+.clean {clear:both}
+
+/* End Rolez */
+
+/* Start Header */
+
+/* Start Slider */
+
+.header .slider {
+    height:600px;
+    background-image:url('../images/slider.jpg');
+    -webkit-background-size: cover; /* CSS3 */
+    -moz-background-size: cover; /* CSS3 */
+    -o-background-size: cover; /* CSS3 */
+    background-size: cover; /* CSS3 */
+}
+
+.header .slider .intro {
+    padding-top:150px;
+    color: #FFF;
+    text-align:center
+}
+
+.header .slider .intro h1 {
+    display:inline-block;
+    border-top:4px solid #f59d2b;
+    border-bottom:4px solid #f59d2b;
+    font-size:50px;
+    padding: 0px 5px;
+    color:#f384b8
+}
+
+.header .slider .intro h5 {
+    display:inline-block;
+    font-size:20px;
+    padding: 0px 3px;
+    color:#f59d2b
+}
+
+.header .slider .intro h2 {
+    display: inline-block;
+    color:#f59d2b;
+    font-size: 22px;    
+}
+
+/* End Slider */
+
+/* Start Navbar */
+
+.navbar {
+    overflow:hidden;
+    height:65px;
+    background-color:#ffc0c0;
+    color:#FFF
+}
+
+.navbar .logo span {
+    background: linear-gradient(50deg, #f8446b, #fa80fa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;  
+    font-size:25px;  
+}
+
+.navbar h2 {
+    width:300px;
+    margin-top:15px;
+    font-size: 20px;
+}
+
+/* .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2%;
+    margin: 0px;
+} */
+
+.navbar ul {
+    width:300px;
+    list-style:none;
+    float:right;
+    margin:25px
+}
+
+.navbar ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar ul a.active,
+.navbar ul li a:hover {
+    color:#f59d2b
+}
+
+/* End Navbar */
+
+
+/* End Header */
+
+/* Start Features */
+
+.picker {
+  margin: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.460);
+  border-radius: 10px;
+}
+
+.picker h3 {
+  text-align: center;
+  padding-top: 2%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
+}
+
+.card {
+  margin: 0.5em;
+  display: grid;
+  grid-template-rows: 1fr 0.2fr;
+  justify-items: center;
+}
+
+.card:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
+    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+}
+
+.green-border {
+  border: 4px solid rgb(106, 255, 170);
+}
+
+.red-border {
+  border: 4px solid rgb(255, 103, 90);
+}
+
+
+/* End Features */
+
+
+/* Start Contact Me */
+
+.contact-me {background-color:#252F31;overflow:hidden;padding-top:50px;padding-bottom:50px}
+
+.contact-me .info {width:50%}
+
+.contact-me .info h2 {color:#FFF;margin-left:40px}
+
+.contact-me .info p {margin-left:40px}
+
+.contact-me .info p:last-of-type {margin-top:-13px}
+
+.contact-me .info strong {color: #D1D6DA;margin-right:40px}
+
+.contact-me .form {width:50%}
+
+.contact-me .form label {
+    color:#D1D6DA;
+    display:block;
+    margin-top:18px;
+    margin-bottom:13px;
+}
+
+.contact-me .form input[type="text"] {
+    background-color: #485557;
+    color:#FFF;
+    height: 40px;
+    width: 80%;
+    border:0;
+    font-size:18px
+}
+
+.contact-me .form textarea {
+    height:300px;
+    width:80%;
+    background-color:#455557;
+    color:#FFF;
+    border:0;
+    font-size:18px
+}
+
+.contact-me .form input[type="submit"] {
+    background-color: #191E22;
+    display:block;
+    color:#FFF;
+    height: 40px;
+    border:0;
+    margin-top:30px;
+    padding-right: 22px;
+    padding-left: 22px
+}
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer {background-color:#191E22;color:#6A6E71;overflow:hidden;padding-bottom:0px}
+
+.footer {text-align:center}
+
+.footer ul {list-style:none}
+
+.footer ul li {
+    display:inline-block;
+    text-align:center;
+    margin-right:5px
+}
+
+.footer ul li a {color:#6A6E71}
+
+.footer ul li a:hover {
+    color:#FFF
+}
+
+/* end Footer */
+
+/* Start My Frame Work */
+
+.fl-left {float:left}
+
+p {line-height:1.7;color:#888}
+
+h2 , h3 {color:#777}
+
+button , input[type="submit"]{cursor:pointer}
+
+/* End My Frame Work */

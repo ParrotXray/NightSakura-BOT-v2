@@ -1,0 +1,246 @@
+{
+    "commands": {
+        "autorole-add": {
+            "name": "autorole-add",
+            "description": "自動ロールの設定",
+            "options":  {
+                "roles": {
+                    "name": "roles",
+                    "description": "ロールを入力してください"
+                }
+            }
+        },
+        "autorole-remove": {
+            "name": "autorole-remove",
+            "description": "自動ロールを削除"
+        },
+        "reload": {
+            "name": "reload",
+            "description": "モジュールを再読み込みします（コマンドが異常な場合に使用可能）",
+            "options":  {
+                "module": {
+                    "name": "module",
+                    "description": "モジュール"
+                }
+            }            
+        },
+        "help": {
+            "name": "help",
+            "description": "コマンドリストを表示します"
+        },
+        "delay": {
+            "name": "delay",
+            "description": "ボットの遅延を確認します"
+        },
+        "invite": {
+            "name": "invite",
+            "description": "BOT介绍"
+        },
+        "welcome-add": {
+            "name": "welcome-add",
+            "description": "参加メッセージチャンネルを追加",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "有効なチャンネルを入力してください"
+                },
+                "message": {
+                    "name": "message",
+                    "description": "ユーザーに送信する歓迎メッセージを入力してください"
+                }
+            }
+        },
+        "leave-add": {
+            "name": "leave-add",
+            "description": "退出メッセージチャンネルを追加",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "有効なチャンネルを入力してください"
+                }
+            }
+        },
+        "leave-remove": {
+            "name": "leave-remove",
+            "description": "退出メッセージチャンネルを削除"
+        },
+        "welcome-remove": {
+            "name": "welcome-remove",
+            "description": "参加メッセージチャンネルを削除"
+        },
+        "notification": {
+            "name": "notification",
+            "description": "ボット情報を購読",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "有効なチャンネルを入力してください"
+                }
+            }
+        },
+        "reactionrole": {
+            "name": "reactionrole",
+            "description": "リアクション役職を設定",
+            "options":  {
+                "content": {
+                    "name": "content",
+                    "description": "埋め込みメッセージの内容"
+                },
+                "roles": {
+                    "name": "roles",
+                    "description": "取得する役職を入力してください"
+                },
+                "reactions": {
+                    "name": "reactions",
+                    "description": "追加するリアクションを入力してください"
+                }
+            }
+        },
+        "serverinfo": {
+            "name": "serverinfo",
+            "description": "サーバー情報を表示"
+        },        
+        "support": {
+            "name": "support",
+            "description": "開発者に問題を提起する"
+        },
+        "update": {
+            "name": "update",
+            "description": "今日の更新履歴を確認"
+        },
+        "userinfo": {
+            "name": "userinfo",
+            "description": "ユーザー情報を表示",
+            "options":  {
+                "user": {
+                    "name": "user",
+                    "description": "ユーザーを選択してください"
+                }
+            }
+        },
+        "join": {
+            "name": "join",
+            "description": "ボイスチャンネルに接続",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "ボイスチャンネルを選択してください"
+                }
+            }
+        },
+        "play": {
+            "name": "play",
+            "description": "音楽を再生",
+            "options":  {
+                "search": {
+                    "name": "search",
+                    "description": "有効なリンクまたはキーワードを入力してください"
+                }
+            }
+        },
+        "loop": {
+            "name": "loop",
+            "description": "ループモード（テスト版）"
+        },
+        "pl-add": {
+            "name": "pl-add",
+            "description": "音楽プレイリストを追加",
+            "options":  {
+                "search": {
+                    "name": "search",
+                    "description": "有効なリンクまたはキーワードを入力してください"
+                }
+            }
+        },
+        "pl-show": {
+            "name": "pl-show",
+            "description": "プレイリスト内の曲を表示"
+        },
+        "pl-play": {
+            "name": "pl-play",
+            "description": "プレイリスト内の曲を再生",
+            "options":  {
+                "songs": {
+                    "name": "songs",
+                    "description": "プレイリスト内の音楽を選択してください"
+                }
+            }
+        },
+        "pl-del": {
+            "name": "pl-del",
+            "description": "プレイリストから曲を削除",
+            "options":  {
+                "songs": {
+                    "name": "songs",
+                    "description": "プレイリスト内の音楽を選択してください"
+                }
+            }
+        },
+        "shuffle": {
+            "name": "shuffle",
+            "description": "現在の再生リストをランダムに並べ替える"
+        },
+        "insert": {
+            "name": "insert",
+            "description": "現在のリストの先頭に曲を挿入",
+            "options":  {
+                "search": {
+                    "name": "search",
+                    "description": "有効なリンクまたはキーワードを入力してください"
+                }
+            }
+        },
+        "pause": {
+            "name": "pause",
+            "description": "音楽を一時停止"
+        },
+        "resume": {
+            "name": "resume",
+            "description": "音楽を再開"
+        },
+        "skip": {
+            "name": "skip",
+            "description": "キュー内の次の曲にスキップ"
+        },
+        "remove": {
+            "name": "remove",
+            "description": "指定された曲をキューから削除",
+            "options":  {
+                "number": {
+                    "name": "number",
+                    "description": "キュー番号を入力してください"
+                }
+            }
+        },
+        "clear": {
+            "name": "clear",
+            "description": "キュー全体をクリア"
+        },
+        "queue": {
+            "name": "queue",
+            "description": "キュー内の音楽を表示"
+        },
+        "current": {
+            "name": "current",
+            "description": "現在再生中の曲を表示"
+        },
+        "volume": {
+            "name": "volume",
+            "description": "現在の再生音量を表示し、音量設定を変更",
+            "options":  {
+                "number": {
+                    "name": "number",
+                    "description": "1から100の間の数字を入力してください"
+                }
+            }
+        },
+        "leave": {
+            "name": "leave",
+            "description": "音楽を停止してボイスを切断"
+        },
+        "config": {
+            "name": "config",
+            "description": "設定を表示する"
+        }
+    }
+}

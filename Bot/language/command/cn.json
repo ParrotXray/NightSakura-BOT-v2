@@ -1,0 +1,246 @@
+{
+    "commands": {
+        "autorole-add": {
+            "name": "autorole-add",
+            "description": "设置自动身份组",
+            "options":  {
+                "roles": {
+                    "name": "roles",
+                    "description": "请输入一个身份组"
+                }
+            }
+        },
+        "autorole-remove": {
+            "name": "autorole-remove",
+            "description": "移除自动身份组"
+        },
+        "reload": {
+            "name": "reload",
+            "description": "重新加载模块（在命令异常情况下可使用）",
+            "options":  {
+                "module": {
+                    "name": "module",
+                    "description": "模块"
+                }
+            }            
+        },
+        "help": {
+            "name": "help",
+            "description": "查看命令列表"
+        },
+        "delay": {
+            "name": "delay",
+            "description": "检查机器人延迟"
+        },
+        "invite": {
+            "name": "invite",
+            "description": "BOT介绍"
+        },
+        "welcome-add": {
+            "name": "welcome-add",
+            "description": "新增加入消息頻道",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "请输入有效的頻道"
+                },
+                "message": {
+                    "name": "message",
+                    "description": "请输入要發送給使用者的歡迎消息"
+                }
+            }
+        },
+        "leave-add": {
+            "name": "leave-add",
+            "description": "新增离開消息頻道",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "请输入有效的頻道"
+                }
+            }
+        },
+        "leave-remove": {
+            "name": "leave-remove",
+            "description": "移除离開消息頻道"
+        },
+        "welcome-remove": {
+            "name": "welcome-remove",
+            "description": "移除加入消息頻道"
+        },
+        "notification": {
+            "name": "notification",
+            "description": "订阅机器人信息",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "请输入有效的频道"
+                }
+            }
+        },
+        "reactionrole": {
+            "name": "reactionrole",
+            "description": "设置反应身份组",
+            "options":  {
+                "content": {
+                    "name": "content",
+                    "description": "嵌入消息内容"
+                },
+                "roles": {
+                    "name": "roles",
+                    "description": "请输入要领取的角色"
+                },
+                "reactions": {
+                    "name": "reactions",
+                    "description": "请输入要添加的反应"
+                }
+            }
+        },
+        "serverinfo": {
+            "name": "serverinfo",
+            "description": "查看服务器信息"
+        },        
+        "support": {
+            "name": "support",
+            "description": "向开发者提出问题"
+        },
+        "update": {
+            "name": "update",
+            "description": "查看今天的更新日志"
+        },
+        "userinfo": {
+            "name": "userinfo",
+            "description": "查看使用者信息",
+            "options":  {
+                "user": {
+                    "name": "user",
+                    "description": "请选择一位使用者"
+                }
+            }
+        },
+        "join": {
+            "name": "join",
+            "description": "连接到语音频道",
+            "options": {
+                "channel": {
+                    "name": "channel",
+                    "description": "请选择一个语音频道"
+                }
+            }
+        },
+        "play": {
+            "name": "play",
+            "description": "播放音乐",
+            "options": {
+                "search": {
+                    "name": "search",
+                    "description": "请输入有效的链接或关键字"
+                }
+            }
+        },
+        "loop": {
+            "name": "loop",
+            "description": "循环模式（测试版）"
+        },
+        "pl-add": {
+            "name": "pl-add",
+            "description": "新增音乐播放列表",
+            "options": {
+                "search": {
+                    "name": "search",
+                    "description": "请输入有效的链接或关键字"
+                }
+            }
+        },
+        "pl-show": {
+            "name": "pl-show",
+            "description": "显示播放列表中的歌曲"
+        },
+        "pl-play": {
+            "name": "pl-play",
+            "description": "播放播放列表中的歌曲",
+            "options": {
+                "songs": {
+                    "name": "songs",
+                    "description": "请选择播放列表中的音乐"
+                }
+            }
+        },
+        "pl-del": {
+            "name": "pl-del",
+            "description": "从播放列表中移除歌曲",
+            "options": {
+                "songs": {
+                    "name": "songs",
+                    "description": "请选择播放列表中的音乐"
+                }
+            }
+        },
+        "shuffle": {
+            "name": "shuffle",
+            "description": "将当前播放列表随机排序"
+        },
+        "insert": {
+            "name": "insert",
+            "description": "在当前列表的开头插入一首歌曲",
+            "options": {
+                "search": {
+                    "name": "search",
+                    "description": "请输入有效的链接或关键字"
+                }
+            }
+        },
+        "pause": {
+            "name": "pause",
+            "description": "暂停音乐"
+        },
+        "resume": {
+            "name": "resume",
+            "description": "继续音乐"
+        },
+        "skip": {
+            "name": "skip",
+            "description": "跳至队列中的下一首歌曲"
+        },
+        "remove": {
+            "name": "remove",
+            "description": "从队列中移除指定的歌曲",
+            "options": {
+                "number": {
+                    "name": "number",
+                    "description": "请输入队列编号"
+                }
+            }
+        },
+        "clear": {
+            "name": "clear",
+            "description": "清空整个队列"
+        },
+        "queue": {
+            "name": "queue",
+            "description": "显示队列中的音乐"
+        },
+        "current": {
+            "name": "current",
+            "description": "显示当前播放的歌曲"
+        },
+        "volume": {
+            "name": "volume",
+            "description": "显示当前播放音量并修改音量设置",
+            "options": {
+                "number": {
+                    "name": "number",
+                    "description": "请输入介于1和100之间的数字"
+                }
+            }
+        },
+        "leave": {
+            "name": "leave",
+            "description": "停止音乐并断开语音"
+        },
+        "config": {
+            "name": "config",
+            "description": "显示配置"
+        }        
+    }
+}

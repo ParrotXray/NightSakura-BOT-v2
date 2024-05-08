@@ -1,0 +1,9 @@
+{
+    "//":"設定檔",
+    "IPCSecret":"",
+    "IPCHost":"",
+    "SecretKey":"",
+    "DiscordClientID":"",
+    "DiscordClientSecret":"",
+    "DiscordRedirectURI":""
+}

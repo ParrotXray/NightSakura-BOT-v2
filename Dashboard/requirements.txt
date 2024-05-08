@@ -1,0 +1,4 @@
+py-cord
+PyNaCl
+pycord-ext-ipc
+Quart-Discord-any[pycord]

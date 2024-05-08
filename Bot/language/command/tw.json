@@ -1,0 +1,246 @@
+{
+    "commands": {
+        "autorole-add": {
+            "name": "autorole-add",
+            "description": "設定自動身分組",
+            "options":  {
+                "roles": {
+                    "name": "roles",
+                    "description": "請輸入一個身分組"
+                }
+            }
+        },
+        "autorole-remove": {
+            "name": "autorole-remove",
+            "description": "設定移除自動身分組"
+        },
+        "reload": {
+            "name": "reload",
+            "description": "重新載入模組（在命令異常情況下可使用）",
+            "options":  {
+                "module": {
+                    "name": "module",
+                    "description": "模組"
+                }
+            }
+        },
+        "help": {
+            "name": "help",
+            "description": "查看命令列表"
+        },
+        "delay": {
+            "name": "delay",
+            "description": "檢查機器人延遲"
+        },
+        "invite": {
+            "name": "invite",
+            "description": "BOT介紹"
+        },
+        "welcome-add": {
+            "name": "welcome-add",
+            "description": "新增加入訊息頻道",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "請輸入有效的頻道"
+                },
+                "message": {
+                    "name": "message",
+                    "description": "請輸入要發送給使用者的歡迎訊息"
+                }
+            }
+        },
+        "leave-add": {
+            "name": "leave-add",
+            "description": "新增離開訊息頻道",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "請輸入有效的頻道"
+                }
+            }
+        },
+        "leave-remove": {
+            "name": "leave-remove",
+            "description": "移除離開訊息頻道"
+        },
+        "welcome-remove": {
+            "name": "welcome-remove",
+            "description": "移除加入訊息頻道"
+        },
+        "notification": {
+            "name": "notification",
+            "description": "訂閱機器人資訊",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "請輸入有效的頻道"
+                }
+            }
+        },
+        "reactionrole": {
+            "name": "reactionrole",
+            "description": "設定反應身分組",
+            "options":  {
+                "content": {
+                    "name": "content",
+                    "description": "嵌入訊息內容"
+                },
+                "roles": {
+                    "name": "roles",
+                    "description": "請輸入要領取的角色"
+                },
+                "reactions": {
+                    "name": "reactions",
+                    "description": "請輸入要添加的反應"
+                }
+            }
+        },
+        "serverinfo": {
+            "name": "serverinfo",
+            "description": "查看伺服器資訊"
+        },
+        "support": {
+            "name": "support",
+            "description": "向開發者提出問題"
+        },
+        "update": {
+            "name": "update",
+            "description": "查看今天的更新日誌"
+        },
+        "userinfo": {
+            "name": "userinfo",
+            "description": "查看使用者資訊",
+            "options":  {
+                "user": {
+                    "name": "user",
+                    "description": "請選擇一位使用者"
+                }
+            }
+        },
+        "join": {
+            "name": "join",
+            "description": "連接到語音頻道",
+            "options":  {
+                "channel": {
+                    "name": "channel",
+                    "description": "請選擇一個語音頻道"
+                }
+            }
+        },
+        "play": {
+            "name": "play",
+            "description": "播放音樂",
+            "options":  {
+                "search": {
+                    "name": "search",
+                    "description": "請輸入有效的連結或關鍵字"
+                }
+            }
+        },
+        "loop": {
+            "name": "loop",
+            "description": "循環模式（測試版）"
+        },
+        "pl-add": {
+            "name": "pl-add",
+            "description": "新增音樂歌單",
+            "options":  {
+                "search": {
+                    "name": "search",
+                    "description": "請輸入有效的連結或關鍵字"
+                }
+            }
+        },
+        "pl-show": {
+            "name": "pl-show",
+            "description": "顯示歌單中的歌曲"
+        },
+        "pl-play": {
+            "name": "pl-play",
+            "description": "播放歌單中的歌曲",
+            "options":  {
+                "songs": {
+                    "name": "songs",
+                    "description": "請選擇歌單中的音樂"
+                }
+            }
+        },
+        "pl-del": {
+            "name": "pl-del",
+            "description": "從歌單中移除歌曲",
+            "options":  {
+                "songs": {
+                    "name": "songs",
+                    "description": "請選擇歌單中的音樂"
+                }
+            }
+        },
+        "shuffle": {
+            "name": "shuffle",
+            "description": "將當前播放清單隨機排序"
+        },
+        "insert": {
+            "name": "insert",
+            "description": "在當前清單的開頭插入一首歌曲",
+            "options":  {
+                "search": {
+                    "name": "search",
+                    "description": "請輸入有效的連結或關鍵字"
+                }
+            }
+        },
+        "pause": {
+            "name": "pause",
+            "description": "暫停音樂"
+        },
+        "resume": {
+            "name": "resume",
+            "description": "繼續音樂"
+        },
+        "skip": {
+            "name": "skip",
+            "description": "跳至佇列中的下一首歌曲"
+        },
+        "remove": {
+            "name": "remove",
+            "description": "從佇列中移除指定的歌曲",
+            "options":  {
+                "number": {
+                    "name": "number",
+                    "description": "請輸入佇列編號"
+                }
+            }
+        },
+        "clear": {
+            "name": "clear",
+            "description": "清空整個佇列"
+        },
+        "queue": {
+            "name": "queue",
+            "description": "顯示佇列中的音樂"
+        },
+        "current": {
+            "name": "current",
+            "description": "顯示當前播放的歌曲"
+        },
+        "volume": {
+            "name": "volume",
+            "description": "顯示當前播放音量並修改音量設定",
+            "options":  {
+                "number": {
+                    "name": "number",
+                    "description": "請輸入介於1和100之間的數字"
+                }
+            }
+        },
+        "leave": {
+            "name": "leave",
+            "description": "停止音樂並斷開語音"
+        },
+        "config": {
+            "name": "config",
+            "description": "顯示配置"
+        }
+    }
+}
