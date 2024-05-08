@@ -10,8 +10,8 @@ class SpotifyAddons():
         # test client ids, b64 for just to deter.
         client = spotipy.Spotify(
             auth_manager=SpotifyClientCredentials(
-                client_id="2b1614ef167f4a599f795aeb6c73d50e",
-                client_secret="120972ee2e0740538103f79d6d539073",
+                client_id="",
+                client_secret="",
             )
         )
         return client
